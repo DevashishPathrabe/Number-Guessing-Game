@@ -78,7 +78,7 @@ function newGame(){
         previousGuesses = [];
         numGuesses = 1;
         guessSlot.innerHTML = '';
-        lowOrHi.innerHTML = '';
+        lowOrHigh.innerHTML = '';
         remaining.innerHTML = `${11 - numGuesses}  `;
         userInput.removeAttribute('disabled');
         startOver.removeChild(p);
